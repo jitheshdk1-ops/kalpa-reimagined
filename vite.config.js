@@ -3,9 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/kalpa-reimagined",
-  server: {
-    port: 3000,
-    open: false
-  }
+  base: "/kalpa-reimagined"
 });
